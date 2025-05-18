@@ -80,7 +80,7 @@ header, h1{
     height: 160px;
     justify-content: center;
     text-align: center;
-
+    animation: fadeIn 5s;
 }
 
 .content-wrapper{
@@ -91,6 +91,7 @@ header, h1{
     border-radius: 10px;
     padding: 20px;
     gap: 20px;
+    animation: fadeIn 5s;
 }
 
 .project1, .project2, .project3{
@@ -207,3 +208,4 @@ header, h1{
         font-size: 16px;
     }
 }
+

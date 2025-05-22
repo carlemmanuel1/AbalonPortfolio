@@ -9,17 +9,24 @@
 Body {
     height: 100vh;
     width: 100%;
-    background: linear-gradient(38deg,#bdbad8,#0623ca, #f00505, #000000);
+    background: linear-gradient(38deg, #bdbad8, #0623ca, #6e59c5, #000000);
     background-size: 300% 300%; 
     animation: color 6s ease-in-out infinite; 
 }
 
 @keyframes color {
-    5%{
+    0%{
         background-position: 0 50%;
     }
-}
 
+    50% {
+    background-position: 100% 50%;
+  }
+  100% {    
+    background-position: 0% 50%;
+  }
+
+}
 
 span {
     font-weight: normal;
